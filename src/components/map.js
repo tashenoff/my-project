@@ -12,7 +12,7 @@ const Map = () => {
   const { address } = contactInfo;
   const defaultPosition = [51.1694, 71.4491];
 
-  let DefaultIcon = Leaflet.icon({
+  let DefaultIcon = Leaflet.icon({   //
     ...Leaflet.Icon.Default.prototype.options,
     iconUrl: icon, 
     iconRetinaUrl: iconRetina,
