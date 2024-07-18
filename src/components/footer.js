@@ -34,7 +34,7 @@ function Footer() {
                         className="p-10 border bg-opacity-20 backdrop-blur-md backdrop-filter border-white border-opacity-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 bg-primary  z-50 relative m-5">
                         <li className="flex items-center w-full">
                             <Icon alt="alt" className='mx-2 w-8 h-8' src="img/gps_icon.svg"  />
-                            <a className='text-sm' href="">{contactInfo.address}</a>
+                            <a className='text-sm' href="#">{contactInfo.address}</a>
                         </li>
                         <li className="flex items-center w-full">
                             <Icon alt="alt" className='mx-2 w-8 h-8' src="img/phone_icon.svg"  />

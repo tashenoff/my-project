@@ -52,21 +52,21 @@ const Map = () => {
 
   return (
     <div className='relative z-40 bottom-0 h-[400px] left-0'>
-     
-        <MapContainer center={markerPosition} zoom={14} style={{ height: '100%', width: '100%' }}>
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          />
-          <Marker position={markerPosition}>
-            {popupOpen && (
-              <Popup>
-                {address}
-              </Popup>
-            )}
-          </Marker>
-        </MapContainer>
-      
+
+      <MapContainer center={markerPosition} zoom={14} style={{ height: '100%', width: '100%' }}>
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        <Marker position={markerPosition}>
+          {popupOpen && (
+            <Popup>
+              {address}
+            </Popup>
+          )}
+        </Marker>
+      </MapContainer>
+
     </div>
   );
 };
