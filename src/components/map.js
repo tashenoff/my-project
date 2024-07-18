@@ -10,11 +10,11 @@ import iconRetina from "leaflet/dist/images/marker-icon-2x.png";
 
 const Map = () => {
   const { address } = contactInfo;
-  const defaultPosition = [51.1694, 71.4491]; // Default position (Astana, Kazakhstan)
+  const defaultPosition = [51.1694, 71.4491];
 
   let DefaultIcon = Leaflet.icon({
     ...Leaflet.Icon.Default.prototype.options,
-    iconUrl: icon,
+    iconUrl: icon, 
     iconRetinaUrl: iconRetina,
     shadowUrl: iconShadow
   });
