@@ -75,7 +75,7 @@ const Product = ({ className }) => {
                 transition={{ duration: 0.3 }} // Уменьшаем продолжительность анимации до 0.3 секунды
               >
                 <div className='relative'>
-                  <img src={product.image} alt={product.title} className="h-[440px] w-full object-contain mb-2" />
+                  <img src={product.image} className="h-[440px] w-full object-contain mb-2" />
                   <div className='flex flex-col w-full absolute bottom-10 -right-5 items-end'>
                     {product.sale && <p className="text-sm bg-red-500 px-5 rounded-full mb-2   text-white">Хит!</p>}
                     <p className="text-sm bg-primary w-1/2 bg-opacity-60 backdrop-blur-md backdrop-filter  text-white rounded-full p-2 text-center ">Цена:

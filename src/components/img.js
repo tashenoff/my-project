@@ -1,6 +1,6 @@
 function Img({ className, src, alt }) {
     return (
-        <img alt={alt} src={src} className={className}>
+        <img src={src} className={className}>
 
         </img>
     );

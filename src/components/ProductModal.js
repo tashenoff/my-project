@@ -57,7 +57,7 @@ const ProductDetails = ({ product }) => (
     <div className='grid grid-cols-3 gap-4 '>
         <div className='relative'>
             {product.sale && <p className="text-sm rounded-r-full text-white bg-red-500 py-3 px-5 w-1/2 absolute bottom-20 uppercase font-bold left-0">Акция!</p>}
-            <img src={product.image} alt={product.title} className="w-full object-cover mb-2 rounded-lg" />
+            <img src={product.image} className="w-full object-cover mb-2 rounded-lg" />
             <p className="text-sm uppercase font-bold absolute bottom-5 bg-black/80 py-3 px-5 rounded-r-full text-white ">Цена: {product.price} тг</p>
             
         </div>
