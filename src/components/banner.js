@@ -1,7 +1,7 @@
 import P from '../components/p';
-import Img from '../components/img';
+
 import Btn from '../components/btn';
-import Icon from '../components/icon';
+
 import Container from '../components/container';
 import Section from '../components/section';
 

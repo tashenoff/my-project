@@ -1,9 +1,6 @@
-import P from '../components/p';
-import Img from '../components/img';
-import Btn from '../components/btn';
-import Icon from '../components/icon';
+
 import Container from '../components/container';
-import Section from '../components/section';
+
 import footerImage from '../assets/img/service.jpg';
 import Logo_mini from '../assets/img/logo_mini.svg';
 

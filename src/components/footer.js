@@ -1,6 +1,6 @@
-import Btn from '../components/btn';
+
 import Icon from '../components/icon';
-import Container from '../components/container';
+
 import contactInfo from '../site.json';
 import footerImage from '../assets/img/footer.jpg';
 import ScrollToTopButton from './ScrollToTopButton';
