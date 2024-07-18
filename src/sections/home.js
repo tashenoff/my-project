@@ -105,13 +105,13 @@ function Home({ id }) {
                                 <ScrollToSectionButton targetId="target-section" />
                                 <div className="flex border border-white rounded-full border-opacity-20 bg-primary_light p-2 right-0">
                                     <Btn>
-                                        <Icon className='mx-2 w-[30px]' src="img/facebook_icon.svg" alt="" />
+                                        <Icon className='mx-2 w-[30px]' src="img/facebook_icon.svg" />
                                     </Btn>
                                     <Btn>
-                                        <Icon className='mx-2 w-[30px]' src="img/pinterest_icon.svg" alt="" />
+                                        <Icon className='mx-2 w-[30px]' src="img/pinterest_icon.svg" />
                                     </Btn>
                                     <Btn>
-                                        <Icon className='mx-2 w-[30px]' src="img/google_icon.svg" alt="" />
+                                        <Icon className='mx-2 w-[30px]' src="img/google_icon.svg"  />
                                     </Btn>
                                 </div>
                             </div>
