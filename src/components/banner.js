@@ -17,7 +17,7 @@ function Banner({ className, title, desc }) {
                         <div className='bg-white h-[1px] bg-opacity-20 w-full absolute'>
                         </div>
                         <div className='w-12 h-12 flex items-center justify-center rotate-45 backdrop-blur-md backdrop-filter border-opacity-20   border-white border'>
-                            <img className="w-7 h-7 -rotate-45" src="img/question_icon.svg" />
+                            <img alt='img' className="w-7 h-7 -rotate-45" src="img/question_icon.svg" />
                         </div>
                     </div>
 
